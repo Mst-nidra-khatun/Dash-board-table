@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
+  <div class="text">
+    <input type="text" placeholder="Search people..." id="searchInput"/>
+  </div>
+  <div class="button">
+    <input type="checkbox"  id="showAll" />  13 people (of 103) Show all
+  </div>  
+  <table>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Status</th>
-            <th>Last Updated At</th>
-            <th>City</th>
+            <th> Name </th>
+            <th> Status </th>
+            <th> Last Updated At </th>
+            <th> City </th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td><img src="1.jpg" alt="M" class="status-icon"> Fernando Alonso</td>
-            <td><div></div> New </td>
+            <td><del></del> New </td>
             <td>Dec 6, 2018, 1:14 PM</td>
             <td>Austin</td>
           </tr>
@@ -43,7 +49,7 @@
           </tr>
           <tr>
             <td><img src="1.jpg" alt="M" class="status-icon"> Jennifer Ghidinelli</td>
-            <td><div></div> New </td>
+            <td><del></del> New </td>
             <td>Sep 19, 2018, 6:15 AM</td>
             <td>San Rafael</td>
           </tr>
@@ -55,7 +61,7 @@
           </tr>
           <tr>
             <td><img src="1.jpg" alt="M" class="status-icon"> Ryan Guill</td>
-            <td><div></div> New </td>
+            <td><del></del> New </td>
             <td>Dec 10, 2018, 7:04 AM</td>
             <td>Colliervile</td>
           </tr>
