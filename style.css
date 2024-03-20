@@ -1,10 +1,40 @@
-.text input {
-  margin: 5px;
-  width: 90%;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  border-radius: 5px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  padding: 20px;
+} 
+
+
+.box {
+  width: 850px;
+  height: 15px;
+  background-color: #C7D1D0;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.box input {
+  background-color: #C7D1D0;
+  flex: 1;
+  height: auto;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+
+
+
+}
+
+.box i {
+  font-size: 20px;
+  color: #777;
+  
 }
 
 .button {
@@ -17,8 +47,13 @@ table {
     width: 100%;
   }
   
-  th, td {
-    border: 1px solid #ddd;
+  th  {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  td {
+    border-bottom: 1px solid #ddd;
     padding: 8px;
     text-align: left;
   }
@@ -62,6 +97,13 @@ table {
     display: inline-block;
     vertical-align: middle;
   }
+
+  i {
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+
+
 
   
   

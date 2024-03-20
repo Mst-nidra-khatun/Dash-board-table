@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="text">
-    <input type="text" placeholder="Search people..." id="searchInput"/>
+  <div class="box">
+    <i class="fa fa-search" id="searchIcon"></i>
+    <input type="text" placeholder="Search people..."  id="searchInput" />
   </div>
   <div class="button">
     <input type="checkbox"  id="showAll" />  13 people (of 103) Show all
@@ -16,7 +18,7 @@
   <table>
         <thead>
           <tr>
-            <th> Name </th>
+            <th> Name <i class="fa fa-arrow-up"></i></th>
             <th> Status </th>
             <th> Last Updated At </th>
             <th> City </th>
